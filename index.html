@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Potfolio</title>
+
+
+   <!-- bootstrap css cdn-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+   <!-- aos -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   <!-- animatestyle -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+   <!-- GSAP -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollToPlugin.min.js"></script>
+
+   <!-- css -->
+   <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+   <!-- <video autoplay muted loop id="myVideo">
+      <source src="img/bgvideo.mp4" type="video/mp4">
+   </video> -->
+
+
+
+   <!-- homepage -->
+   <div class="background" id="home">
+
+      <!-- navbar -->
+
+      <nav>
+         <div class="container">
+            <div class="row navitems">
+               <div class="col navitem"><a class="nav_link" href="#home">HOME</a></div>
+               <div class="col navitem"><a class="nav_link" href="#project">PROJECT</a></div>
+               <div class="col navitem"><a class="nav_link" href="#contact">CONTACT</a></div>
+               <div class="col navitem">
+                  <a class="nav_link"
+                     href="mycv.pdf"
+                     download target="_blank">
+                     RESUME
+                  </a>
+               </div>
+            </div>
+
+         </div>
+      </nav>
+
+
+      <!-- introsection -->
+      <section class="intro">
+         <div class="container intro_container">
+            <div class="row intro_boxes">
+               <div class="col-lg-6 col-md-12 intro_box1" data-aos="fade-in-left">
+                  <div class="name_bio">
+                     <p class="name">
+                        Hi, I'm Siddhu
+                     </p>
+                     <p class="bio">
+                        🚀 B.Tech student @ RCPIT, Shirpur | Passionate about coding & software dev 💻 | Algorithm aficionado turning abstract ideas into elegant solutions 🌐 | SQL wizard for seamless data interaction 📊 | Committed to continuous learning & pushing tech boundaries 🌟 | Join me on this coding adventure!
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-12 intro_box2 animate__animated animate__fadeInRight">
+                  <div class="box2_svg">
+                     <!-- <div class="box2_svg_img1"> -->
+                     <lottie-player class="box2_svg_img1"
+                        src="https://assets8.lottiefiles.com/packages/lf20_vnikrcia.json" background="transparent"
+                        speed="1" loop autoplay></lottie-player>
+                     <!-- </div> -->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+   </div>
+
+
+   <div class="fron_project_to_end">
+      <!-- project -->
+
+      <section class="project" id="project">
+         <div class="project_heading">Projects</div>
+         <div class="project_box">
+            <div class="container">
+               
+               <div class="row project_row">
+                  <div class="col-lg-7 project_img project_img1" data-aos="slide-left" data-aos-duration="1500"
+                     style="transition: 1.5s;">
+                  </div>
+                  <div class="col-lg-5 project_info">
+                     <div class="project_title">
+                        Online Crop Recommendation System
+                     </div>
+                     <div class="project_detail">
+                        🌱 Developed Crop Recommendation System driven by machine learning and Environmental, Operational, and Geographic Information (EOGI). 🌍 Users input soil type, climate, and preferences via an intuitive interface, and the system generates personalized crop suggestions. 🚀 Witness the fusion of data science and agriculture, revolutionizing cultivation practices. Explore the future of precision farming! 🌾🤖
+                     </div>
+                     <div class="project_demo">
+                        <a href="https://github.com/sidz111/Crop_Recommendation_Model"><button class="project_link">View</button></a>
+                     </div>
+                  </div>
+               </div>
+
+
+               <div class="row project_row">
+                  <div class="col-lg-5 project_info project_info_even ">
+                     <div class="project_title">
+                        Online Shopping System
+                     </div>
+                     <div class="project_detail">
+                        Developed a console based 💻 Online Shopping System in Java, offering a seamless e-commerce experience. Explore the curated Product Showcase with detailed info on ID, name, price, and stock. Effortless user registration and login for new and returning customers. Manage your shopping cart, remove, or clear items swiftly. Place orders seamlessly and review your order history conveniently. Your user profile is just a click away. Experience the future of online shopping! 🌐🛍️
+                     </div>
+                     <div class="project_demo">
+                        <a href="https://github.com/sidz111/Online_Shopping_System"><button
+                              class="project_link">View</button></a>
+                     </div>
+                  </div>
+                  <div class="col-lg-7 project_img project_img2" data-aos="slide-right" data-aos-duration="1500"
+                     style="transition: 1.5s;"></div>
+               </div>
+
+
+               <div class="row project_row">
+                  <div class="col-lg-7 project_img project_img3" data-aos="slide-left" data-aos-duration="1500"
+                     style="transition: 1.5s;"></div>
+                  <div class="col-lg-5 project_info">
+                     <div class="project_title">
+                        Bank Management System
+                     </div>
+                     <div class="project_detail">
+                        Developed a user-friendly 💼 Bank Management System in Java, offering essential functionalities for seamless account management through a console interface. Create a new bank account with ease, deposit funds with real-time balance updates, withdraw money securely with sufficient balance checks, and check your account balance anytime. This console-based system ensures simplicity and efficiency in banking operations. 💳💻
+
+                     </div>
+                     <div class="project_demo">
+                        <a href="https://github.com/sidz111/Bank_Management_System"><button
+                              class="project_link">View</button></a>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="show_all_project">
+                  <a href="https://www.linkedin.com/in/shuddhodhan-surwade-a493b7215/" target="_blank">
+                     <lottie-player class="all_project_icon"
+                        src="https://assets1.lottiefiles.com/packages/lf20_80nu1g6c.json" speed="1" loop
+                        autoplay></lottie-player>
+                  </a>
+
+               </div>
+            </div>
+
+
+
+
+         </div>
+      </section>
+
+
+
+      <!-- skills -->
+      <section class="skill_section">
+         <div class="skill_heading ">
+            <div class="skill_project_heading">
+               Skills
+            </div>
+
+         </div>
+         <img src="img/circle-spin.svg" alt="">
+         <img src="img/circle-spin.svg" alt="">
+         <div class="all_skills">
+            <div class="my_skills container">
+
+               <div class="row skill_row">
+                  <div class="col-md-5 col-sm-5 col-5 skillset">
+                     <div class="skill_set1">
+
+                        <div class="skill_in_set1 react">
+                           JAVA
+                        </div>
+                        <div class="skill_in_set1 node">
+                           PYTHON
+                        </div>
+                        <div class="skill_in_set1 jquery">
+                           DBMS
+                        </div>
+                        <div class="skill_in_set1 mysql">
+                           Latex
+                        </div>
+                        <div class="skill_in_set1 api">
+                           HTML/CSS
+                        </div>
+
+                     </div>
+
+                  </div>
+
+                  <div class="col-md-2 col-sm-2 col skill_line">
+                     <div class="box">
+
+                     </div>
+                  </div>
+
+                  <div class="col-md-5 col-sm-5 col-5 skillset">
+                     <div class="skill_set2">
+
+                        <div class="skill_in_set2 javascript">
+                           Problem Solving
+                        </div>
+                        <div class="skill_in_set2 express">
+                           Creative Thinking
+                        </div>
+                        <div class="skill_in_set2 mongo">
+                           Normalization
+                        </div>
+                        <div class="skill_in_set2 bootstarp">
+                           Typesetting
+                        </div>
+                        <!-- <div class="skill_in_set2 css">
+                           HTML/CSS
+                        </div> -->
+
+                     </div>
+
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
+
+
+
+
+
+
+      <!-- contact -->
+      <section class="main_contact" id="contact">
+         <div class="container">
+
+            <div class="row contact_heading ">
+               <div class="contact_heading_content col-md-6">
+                  <p class="cline2">
+                     Let's work together
+                  </p>
+                  <div class="contact_heading_content_img">
+                     <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_w6y7r1ap.json"
+                        background="transparent" speed="1" loop autoplay></lottie-player>
+                  </div>
+               </div>
+               <div class="contact_heading_svg col-md-6">
+                  <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_w7x9i6ag.json"
+                     background="transparent" speed="1" loop autoplay></lottie-player>
+               </div>
+            </div>
+         </div>
+
+
+         <div class="circular_box">
+            <div class="contact">
+               <a class="contact_icons cicon1" href="https://github.com/sidz111/" target="_blank">
+                  <lottie-player class="github" src="https://assets1.lottiefiles.com/packages/lf20_6HFXXE.json"
+                     background="transparent" speed="2" loop autoplay></lottie-player>
+               </a>
+               <a class="contact_icons cicon2" href="https://www.linkedin.com/in/shuddhodhan-surwade-a493b7215/" target="_blank">
+                  <lottie-player class="linkedin" src="https://assets9.lottiefiles.com/packages/lf20_0Cm1Y2.json"
+                     background="transparent" speed="1" loop autoplay></lottie-player>
+               </a>
+               <a class="contact_icons cicon3" href="mailto: sssurwade2212@gmail.com" target="_blank">
+                  <lottie-player class="gmail" src="https://assets10.lottiefiles.com/packages/lf20_a0reautd.json"
+                     background="transparent" speed="1" loop autoplay></lottie-player>
+               </a>
+               <a class="contact_icons cicon4" href="https://twitter.com/SHUDDHODHANSUR1" target="_blank">
+                  <lottie-player class="twitter" src="https://assets1.lottiefiles.com/private_files/lf30_oxdthhr1.json"
+                     background="transparent" speed="1" loop autoplay></lottie-player>
+               </a>
+            </div>
+         </div>
+      </section>
+
+
+   </div>
+
+
+
+   <!-- bootstrap js cdn -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+
+   <!-- aos -->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+   <!-- jquerry cdn-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+   <!-- icon -->
+   <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
+   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+
+   <!-- js -->
+   <script src="script.js"></script>
+
+</body>
+
+</html>
