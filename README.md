@@ -24,9 +24,8 @@ Developed a user-friendly 💼 Bank Management System in Java, offering essentia
 # Let's work together
 ![Screenshot (144)](https://github.com/sidz111/siddhu.github.io/assets/119784108/605dcfce-089b-4f57-8047-4c1a52887269)
 ### Contact me here
-[Linedin](https://www.linkedin.com/in/shuddhodhan-surwade-a493b7215/)
-[Twitter](https://twitter.com/SHUDDHODHANSUR1)
-[Mail](sssurwade2212@gmail.com)
+[Linedin](https://www.linkedin.com/in/shuddhodhan-surwade-a493b7215/)<br>
+[Twitter](https://twitter.com/SHUDDHODHANSUR1)<br>
 [Github](https://github.com/sidz111/)
 
 
