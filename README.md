@@ -1,4 +1,4 @@
-#[Live Here](https://sidz111.github.io/siddhu.github.io/)
+[Live Here](https://sidz111.github.io/siddhu.github.io/)
 # Portfolio Interface
 ## HomePage
 ![Screenshot (139)](https://github.com/sidz111/siddhu.github.io/assets/119784108/d76a24f3-410a-45c6-a17b-c5fe7008e3a0)
@@ -25,6 +25,8 @@ Developed a user-friendly 💼 Bank Management System in Java, offering essentia
 ![Screenshot (144)](https://github.com/sidz111/siddhu.github.io/assets/119784108/605dcfce-089b-4f57-8047-4c1a52887269)
 ### Contact me here
 [Linedin](https://www.linkedin.com/in/shuddhodhan-surwade-a493b7215/)
-
+[Twitter](https://twitter.com/SHUDDHODHANSUR1)
+[Mail](sssurwade2212@gmail.com)
+[Github](https://github.com/sidz111/)
 
 
